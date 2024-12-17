@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+//Тултіп і його формат
+.p-tooltip {
+  background-color: #ffffff;
+  color: #ccc  ;
+  border-radius: 30px 0px 30px 30px;
+  padding: 10px 15px;
+  font-size: 14px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+  max-width: 400px;
+  white-space: normal;
+  word-wrap: break-word;
+  transform: translate(0, 300%);
+
+  .p-tooltip-text {
+    background-color: #ffffff !important;
+    color: #666 !important;
+    font-size: 12px;
+    box-shadow: none;
+    white-space: inherit;
+  }
+
+  .p-tooltip-arrow {
+    display: none;
+  }
+}
+//Вирівнювання тултіпа
+.custom-tooltip {
+  transform: translate(-48%, 5%);
+}
+.custom-tooltip-left {
+  transform: translate(48%, 5%);
+  border-radius: 0px 30px 30px 30px;
+}
+//Для пародій
+.parody-tip {
+  transform: translate(0%, -67%);
+}
+//Для локацій
+.location1{
+  transform: translate(48%, 363%);
+  border-radius: 0px 30px 30px 30px;
+}
+.location2{
+  transform: translate(71%, 940%);
+  border-radius: 0px 30px 30px 30px;
+}
+.location3{
+  transform: translate(67.5%, 393.5%);
+  border-radius: 0px 30px 30px 30px;
+}
+.location4{
+  transform: translate(41%, 314%);
+  border-radius: 0px 30px 30px 30px;
+}
+.location5{
+  transform: translate(36%, 443%);
+  border-radius: 0px 30px 30px 30px;
+}
+.location6{
+  transform: translate(11%, 351%);
+  border-radius: 0px 30px 30px 30px;
+}
+.location7{
+  transform: translate(44%, 300%);
+  border-radius: 0px 30px 30px 30px;
+}
+.location8{
+  transform: translate(67.5%, 300%);
+  border-radius: 0px 30px 30px 30px;
+}
+.location9{
+  transform: translate(47.5%, 394%);
+  border-radius: 0px 30px 30px 30px;
+}
+//Для екранізації 1967-го
+.Ecranisation{
+  transform: translate(0%, 1000%);
+  border-radius: 0px 30px 30px 30px;
+}
+//Вміст сторінок
+.wrap {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+  font-size: 16px;
+
+  .page-container {
+    height: calc(100vh - 200px);
+    overflow: auto;
+
+    .content {
+      padding: 10px 75px 0;
+      
+      text-align: justify;
+
+      h1 {
+        font-size: 48px;
+        font-weight: 700;
+        text-align: center;
+      }
+
+      h2 {
+        font-size: 32px;
+        font-weight: 700;
+        text-align: center;
+      }
+
+      p {
+        font-size: 1rem;
+        color: #666;
+        line-height: 32px;
+        margin-bottom: 10px;
+      }
+
+      sup{
+        color: #9457ff;
+
+        &:hover {
+          text-decoration: underline;
+          color: #7220ff;
+        }
+      }
+
+      .about-book {
+        .blockquote {
+          display: flex;
+          align-items: center;
+          background-color: #e0e0e0;
+          border-radius: 5px;
+          margin-bottom: 10px;
+
+          .bi-quote {
+            margin: 0 10px;
+          }
+
+          blockquote {
+            font-style: italic;
+            margin: 2px 0;
+            padding: 7px 10px 0;
+            border-left: 3px solid #333;
+            width: 100%;
+            .quotes {
+              font-size: 32px;
+            }
+            strong {
+              font-style: normal;
+            }
+          }
+        }
+
+        .parody10 {
+          display: flex;
+          align-items: center;
+          background-color: #ffba53;
+          border-radius: 5px;
+          margin-bottom: 10px;
+          border: 3px solid #333;
+
+          .image {
+            margin: 6px 10px 0px;
+          }
+
+          p{
+            color:#333;
+          }
+
+          blockquote {
+            font-style: italic;
+            padding: 7px 10px 0;
+            border-left: 3px solid #333;
+            width: 100%;
+            .quotes {
+              font-size: 32px;
+            }
+            strong {
+              font-style: normal;
+            }
+          }
+        }
+
+        .book-description {
+          margin: 0 20px;
+
+          .book-cover {
+            width: 575px;
+            margin: 0 0 10px 10px;
+            float: right;
+          }
+
+          .book-cover-left {
+            width: 575px;
+            margin: 0px 10px 10px 0px;
+            float: left;
+          }
+        }
+
+        p {
+          font-size: 1rem;
+          color: #666;
+          line-height: 32px;
+          margin-bottom: 10px;
+        }
+      }
+
+      .dashed-line {
+        border: none;
+        border-top: 3px solid transparent;
+        background-image: repeating-linear-gradient(
+          to right,
+          #ccc 0%,
+          #ccc 10px,
+          transparent 10px,
+          transparent 15px
+        );
+        background-size: 20px 1px;
+        width: 80%;
+        margin: 20px auto 10px;
+      }
+
+      .solid-line {
+        border: none;
+        border-top: 4px solid;
+        color: #333;
+        background-size: 20px 1px;
+        width: 95%;
+        margin: 20px auto 10px;
+      }
+      a{
+        color: #9457ff;
+      }
+
+
+      .sources {
+        ul {
+          padding-bottom: 30px;
+          margin: 0 40px;
+
+          li a {
+
+            &:hover {
+              text-decoration: underline;
+              color: #7220ff;
+            }
+          }
+        }
+      }
+    }
+  }
+}
