@@ -93,6 +93,7 @@
   .page-container {
     height: calc(100vh - 200px);
     overflow: auto;
+    flex-wrap: wrap;
 
     .content {
       padding: 10px 6.8% 0;
@@ -171,15 +172,12 @@
           }
 
           blockquote {
-            font-style: italic;
+            font-style: normal;
             padding: 7px 10px 0;
             border-left: 3px solid #333;
             width: 100%;
             .quotes {
               font-size: 32px;
-            }
-            strong {
-              font-style: normal;
             }
           }
         }
