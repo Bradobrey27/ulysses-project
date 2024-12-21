@@ -20,9 +20,9 @@ export const routes: Routes = [
           ),
       },
       {
-        path: 'plot-anaysis',
+        path: 'plot-analysis',
         loadComponent: () =>
-          import('./pages/plot-anaysis/plot-anaysis.component').then(
+          import('./pages/plot-analysis/plot-analysis.component').then(
             (m) => m.PlotAnalysisComponent
           ),
       },
