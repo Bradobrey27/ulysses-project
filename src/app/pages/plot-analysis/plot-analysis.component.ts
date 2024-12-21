@@ -4,11 +4,11 @@ import { HeaderComponent } from '../../layout/header/header.component';
 import { FooterComponent } from '../../layout/footer/footer.component';
 
 @Component({
-  selector: 'app-plot-analysis',
+  selector: 'app-ecranisation',
   standalone: true,
   imports: [TooltipModule, HeaderComponent, FooterComponent],
-  templateUrl: './plot-analysis.component.html',
-  styleUrl: './plot-analysis.component.scss'
+  templateUrl: './ecranisation.component.html',
+  styleUrl: './ecranisation.component.scss'
 })
 export class PlotAnalysisComponent {
 
