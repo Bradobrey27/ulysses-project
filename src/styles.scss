@@ -158,7 +158,6 @@
             }
           }
         }
-
         .parody10 {
           display: flex;
           align-items: center;
@@ -186,16 +185,44 @@
           }
         }
 
-        .book-description {
+        .parody11 {
+          display: flex;
+          align-items: center;
+          background-color: #93d4f5;
+          border-radius: 5px;
+          margin-bottom: 10px;
+          border: 3px solid #333;
+      
+          .image {
+            margin: 6px 0px 0px;
+            align-items: center
+          }
+      
+          p{
+            color:#333;
+          }
+      
+          blockquote {
+            font-style: normal;
+            padding: 7px 10px 0;
+            border-left: 3px solid #333;
+            width: 100%;
+            .quotes {
+              font-size: 32px;
+            }
+          }
+        }
+
+        .article-section {
           margin: 0 20px;
 
-          .book-cover {
+          .photo-align {
             width: 575px;
             margin: 0 0 10px 10px;
             float: right;
           }
 
-          .book-cover-left {
+          .photo-align-left {
             width: 575px;
             margin: 0px 10px 10px 0px;
             float: left;
