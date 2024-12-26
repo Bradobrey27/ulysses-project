@@ -198,7 +198,37 @@
           border: 3px solid #333;
       
           .image {
-            margin: 6px 0px 0px;
+            width: 32px;
+            margin: 0px 6px;
+            align-items: center
+          }
+      
+          p{
+            color:#333;
+          }
+      
+          blockquote {
+            font-style: normal;
+            padding: 7px 10px 0;
+            border-left: 3px solid #333;
+            width: 100%;
+            .quotes {
+              font-size: 32px;
+            }
+          }
+        }
+
+        .parody12 {
+          display: flex;
+          align-items: center;
+          background-color: #61db5c;
+          border-radius: 5px;
+          margin-bottom: 10px;
+          border: 3px solid #333;
+      
+          .image {
+            width: 32px;
+            margin: 0px 6px;
             align-items: center
           }
       
