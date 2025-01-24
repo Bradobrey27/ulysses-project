@@ -296,6 +296,10 @@
       }
       a{
         color: #9457ff;
+        &:hover {
+          text-decoration: underline;
+          color: #7220ff;
+        }
       }
 
 
@@ -303,14 +307,6 @@
         ul {
           padding-bottom: 30px;
           margin: 0 40px;
-
-          li a {
-
-            &:hover {
-              text-decoration: underline;
-              color: #7220ff;
-            }
-          }
         }
       }
     }
