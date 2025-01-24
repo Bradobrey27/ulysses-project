@@ -152,6 +152,13 @@ export const routes: Routes = [
             (m) => m.Episode18Component
           ),
       },
+      {
+        path: 'title-page',
+        loadComponent: () =>
+          import('./pages/title-page/title-page.component').then(
+            (m) => m.TitlePageComponent
+          ),
+      },
     ],
   },
   { path: '**', redirectTo: 'home' },

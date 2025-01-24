@@ -1,0 +1,33 @@
+.title-text{
+    margin: 8% 0;
+}
+.title-page-signs{
+    text-align: right;
+    margin-right: 100px;
+}
+.centered-signs{
+    text-align: center;
+    font-weight: bold;
+    h2{
+        font-size: 16px;
+    }
+}
+.dashed-line-title {
+    border: none;
+    border-top: 3px solid transparent;
+    background-image: repeating-linear-gradient(
+      to right,
+      #ccc 0%,
+      #ccc 10px,
+      transparent 10px,
+      transparent 15px
+    );
+    background-size: 20px 1px;
+    width: 78%;
+    margin: 20px auto 10px;
+  }
+.page-container {
+    height: calc(100vh);
+    overflow: auto;
+    flex-wrap: wrap;
+}
